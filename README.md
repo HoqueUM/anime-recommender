@@ -1,2 +1,2 @@
 # anime-recommendor
-An anime recommendation ap
+An anime recommendation app.
