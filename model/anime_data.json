@@ -1,0 +1,84 @@
+{
+    "AnimeList": [
+        {
+            "Title": "Dragon Ball",
+            "Score": 7.96,
+            "Rank": 663.0,
+            "Popularity": 148,
+            "ImageLink": "https://cdn.myanimelist.net/images/anime/1887/92364.jpg",
+            "MALPage": "https://myanimelist.net/anime/223"
+        },
+        {
+            "Title": "Hunter x Hunter",
+            "Score": 8.41,
+            "Rank": 171.0,
+            "Popularity": 366,
+            "ImageLink": "https://cdn.myanimelist.net/images/anime/1305/132237.jpg",
+            "MALPage": "https://myanimelist.net/anime/136"
+        },
+        {
+            "Title": "Bleach",
+            "Score": 7.93,
+            "Rank": 704.0,
+            "Popularity": 39,
+            "ImageLink": "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
+            "MALPage": "https://myanimelist.net/anime/269"
+        },
+        {
+            "Title": "One Piece",
+            "Score": 8.71,
+            "Rank": 52.0,
+            "Popularity": 19,
+            "ImageLink": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg",
+            "MALPage": "https://myanimelist.net/anime/21"
+        },
+        {
+            "Title": "Swallowed Star",
+            "Score": 7.88,
+            "Rank": 791.0,
+            "Popularity": 7167,
+            "ImageLink": "https://cdn.myanimelist.net/images/anime/1188/110437.jpg",
+            "MALPage": "https://myanimelist.net/anime/44218"
+        },
+        {
+            "Title": "D.Gray-man",
+            "Score": 8.01,
+            "Rank": 600.0,
+            "Popularity": 287,
+            "ImageLink": "https://cdn.myanimelist.net/images/anime/13/75194.jpg",
+            "MALPage": "https://myanimelist.net/anime/1482"
+        },
+        {
+            "Title": "Douluo Dalu",
+            "Score": 7.86,
+            "Rank": 842.0,
+            "Popularity": 4097,
+            "ImageLink": "https://cdn.myanimelist.net/images/anime/1438/101531.jpg",
+            "MALPage": "https://myanimelist.net/anime/37150"
+        },
+        {
+            "Title": "Hell's Paradise",
+            "Score": 8.12,
+            "Rank": 459.0,
+            "Popularity": 332,
+            "ImageLink": "https://cdn.myanimelist.net/images/anime/1075/131925.jpg",
+            "MALPage": "https://myanimelist.net/anime/46569"
+        },
+        {
+            "Title": "Solo Leveling",
+            "Score": 8.45,
+            "Rank": 149.0,
+            "Popularity": 699,
+            "ImageLink": "https://cdn.myanimelist.net/images/anime/1926/140799.jpg",
+            "MALPage": "https://myanimelist.net/anime/52299"
+        },
+        {
+            "Title": "InuYasha",
+            "Score": 7.86,
+            "Rank": 845.0,
+            "Popularity": 234,
+            "ImageLink": "https://cdn.myanimelist.net/images/anime/1589/95329.jpg",
+            "MALPage": "https://myanimelist.net/anime/249"
+        }
+    ]
+}

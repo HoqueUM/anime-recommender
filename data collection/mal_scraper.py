@@ -77,7 +77,7 @@ def scrape_mal (page, ua):
             rank, popularity, members, favorites, website, page, url)
 
 sleep_intervals = [1, 2, 3]
-with open('scraped.csv', 'a', newline='', encoding="utf-8") as file: # change to append when stopping
+with open('My Anime List Dataset 2024.csv', 'a', newline='', encoding="utf-8") as file: # change to append when stopping
     writer = csv.writer(file)
     if file.tell() == 0:
         writer.writerow(['English', 'Japanese', 'Transliterated', 'Image Link', 'Type', 'Episodes',

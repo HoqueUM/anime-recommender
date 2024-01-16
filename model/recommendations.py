@@ -96,7 +96,3 @@ def get_recommendations(anime, score=7.0, rank=1000, num_shows=10):
     if num_shows >= len(refined_list):
         return refined_list, full_list
     return refined_list[0:num_shows], full_list
-
-
-
-
