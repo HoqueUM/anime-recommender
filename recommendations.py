@@ -1,9 +1,10 @@
 import pickle
+import bz2
 import pandas as pd
 import json
 
 def get_recommendations(anime, score=7.0, rank=1000, num_shows=10):
-    with open('anime_recommendation.pkl', 'rb') as file:
+    with bz2.open('anime_recommendation.pbz2', 'rb') as file:
         model = pickle.load(file)
     
     try:
@@ -96,11 +97,6 @@ def get_recommendations(anime, score=7.0, rank=1000, num_shows=10):
         return refined_list, full_list
     return refined_list[0:num_shows], full_list
 
-
-
-
-my_recs, valid_titles = get_recommendations('Goblin Slayer', rank=2500,num_shows=20)
-print(my_recs)
 
 
 
