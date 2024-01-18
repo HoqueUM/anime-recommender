@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>{{ AnimeList }}</h1>
+    <p>{{ Title }}</p>
+    <p>Score: {{ Score }}</p>
+    <p>Rank: {{ Rank }}</p>
+    <p>Popularity: {{ Popularity }}</p>
+    <p>MAL page: {{ MALPage }}</p>
+
+    <form action="/recommendations">
+        <input type="text" name="anime" id="anime" placeholder="Enter an Anime" />
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

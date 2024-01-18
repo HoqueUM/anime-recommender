@@ -1,9 +1,10 @@
 import pickle
 import bz2
 import pandas as pd
+from pprint import pprint
 import json
 
-def get_recommendations(anime, score=7.0, rank=1000, num_shows=10):
+def get_recommendations(anime='Naruto', score=7.0, rank=1000, num_shows=10):
     with bz2.open('anime_recommendation.pbz2', 'rb') as file:
         model = pickle.load(file)
     
@@ -88,7 +89,10 @@ def get_recommendations(anime, score=7.0, rank=1000, num_shows=10):
                 "ImageLink": img[ind],
                 "MALPage": mal[ind]
             })
+    
+    return anime_data
 
+    """
     # Save as JSON file
     with open('anime_data.json', 'w', encoding='utf-8') as json_file:
         json.dump(anime_data, json_file, ensure_ascii=False, indent=4)
@@ -96,3 +100,13 @@ def get_recommendations(anime, score=7.0, rank=1000, num_shows=10):
     if num_shows >= len(refined_list):
         return refined_list, full_list
     return refined_list[0:num_shows], full_list
+    """
+
+if __name__ == "__main__":
+    print('\n*** Get your anime recommendations***\n')
+
+    anime = input('\n Please input and anime: ')
+
+    recommendations = get_recommendations(anime=anime)
+
+    pprint(recommendations)
