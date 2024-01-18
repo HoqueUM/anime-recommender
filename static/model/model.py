@@ -20,8 +20,6 @@ number_of_scores = df['Number of Scores'].tolist()
 titles = df['English']
 
 
-# create bag of words representation of genres
-
 for ls in range(len(genres)):
     genres[ls].append(str(scores[ls]))
     genres[ls].append(str(ranks[ls]))
@@ -35,16 +33,12 @@ def create_bow(genre_list):
     
     return bow
 
-# Create a list of bags of words representations of the movie genres
 bags_of_words = [create_bow(anime_genres)for anime_genres in genres]
  
-# Create a dataframe to store the bags of words representation of the movie genres
 genre_df = pd.DataFrame(bags_of_words, index=titles).fillna(0)
 
-# Calculate the cosine similarity matrix between the movies
 cosine_similarity = cosine_similarity(genre_df)
 
-# Create a dataframe with the cosine similarity scores
 similarity_df = pd.DataFrame(cosine_similarity, index=genre_df.index, columns=genre_df.index)
 
 
